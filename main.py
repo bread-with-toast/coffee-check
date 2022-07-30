@@ -23,13 +23,13 @@ while True:
     elif currency == "GBP":
         print(f"\nShowing Information For: {cool_coffee.name}")
         print(f"Brand: {cool_coffee.brand}")
-        print(f"Cost in USD: ~{cool_coffee.cost_gbp}")
+        print(f"Cost in GBP: ~{cool_coffee.cost_gbp}")
         print(f"Available: {cool_coffee.available}")
         print(f"Time to make: {cool_coffee.time_to_make}")
     elif currency == "EUR":
         print(f"\nShowing Information For: {cool_coffee.name}")
         print(f"Brand: {cool_coffee.brand}")
-        print(f"Cost in USD: ~{cool_coffee.cost_gbp * 1.19}")
+        print(f"Cost in EUR: ~{cool_coffee.cost_gbp * 1.19}")
         print(f"Available: {cool_coffee.available}")
         print(f"Time to make: {cool_coffee.time_to_make}")
     else:
